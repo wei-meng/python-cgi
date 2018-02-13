@@ -37,6 +37,7 @@ html = """
   <p>
   Hit count: {1}
   </p>
+  <img src="../img/W.jpg"></img>
 </body>
 </html>
 """.format(cgi.escape(date_string), cgi.escape(str(hit_count)))
